@@ -73,41 +73,14 @@
     </div>
   </section>
 
-  <!-- <section class="shoes-section">
-    <div class="shoes-card-container">
-      <div class="shoes-card">
-        <img src="imgaes/shoes/shoe-1.png">
-        <h2>Reebok Dart Men's Shoes</h2>
-        <p>Amet minim non deserunt ullace est <br>sit alique dolor do amet sint.</p>
-        <h4 class="banner-price">$1289</h4> <br>
-        <button class="btn">BUY NOW <i class="fa-solid fa-arrow-right-long"></i></button>
-   </div>
-   <div class="shoes-card">
-        <img src="imgaes/shoes/shoe-2.png">
-        <h2>Reebok Dart Men's Shoes</h2>
-        <p>Amet minim non deserunt ullace est <br>sit alique dolor do amet sint.</p>
-        <h4 class="banner-price">$1289</h4> <br>
-        <button class="btn">BUY NOW <i class="fa-solid fa-arrow-right-long"></i></button>
-   </div>
-   <div class="shoes-card">
-        <img src="imgaes/shoes/shoe-3.png">
-        <h2>Reebok Dart Men's Shoes</h2>
-        <p>Amet minim non deserunt ullace est <br>sit alique dolor do amet sint.</p>
-        <h4 class="banner-price">$1289</h4> <br>
-        <button class="btn">BUY NOW <i class="fa-solid fa-arrow-right-long"></i></button>
-   </div>
-    </div>
-  </section> -->
-
   <section class="shoes-section">
   <div class="shoes-card-container">
-    <!-- First Row -->
     <div class="shoes-card">
       <img src="imgaes/shoes/shoe-1.png">
       <h2>Reebok Dart Men's Shoes</h2>
       <p>Amet minim non deserunt ullace est <br>sit alique dolor do amet sint.</p>
       <h4 class="banner-price">$1289</h4><br>
-      <button class="btn">BUY NOW <i class="fa-solid fa-arrow-right-long"></i></button>
+      <button  onclick="welcome()"class="btn">BUY NOW <i class="fa-solid fa-arrow-right-long"></i></button>
     </div>
 
     <div class="shoes-card">
@@ -123,7 +96,7 @@
       <h2>Reebok Dart Men's Shoes</h2>
       <p>Amet minim non deserunt ullace est <br>sit alique dolor do amet sint.</p>
       <h4 class="banner-price">$1289</h4><br>
-      <button class="btn">BUY NOW <i class="fa-solid fa-arrow-right-long"></i></button>
+      <button  class="btn">BUY NOW <i class="fa-solid fa-arrow-right-long"></i></button>
     </div>
 
     <!-- Second Row -->
@@ -132,7 +105,7 @@
       <h2>Reebok Dart Men's Shoes</h2>
       <p>Amet minim non deserunt ullace est <br>sit alique dolor do amet sint.</p>
       <h4 class="banner-price">$1289</h4><br>
-      <button class="btn">BUY NOW <i class="fa-solid fa-arrow-right-long"></i></button>
+      <button  onclick="Discount()" class="btn">BUY NOW <i class="fa-solid fa-arrow-right-long"></i></button>
     </div>
 
     <div class="shoes-card">
@@ -152,6 +125,17 @@
     </div>
   </div>
 </section>
+
+<script>
+ var password = prompt("");
+ if(password ==="1234") {
+  alert("সঠিক পার্সওয়াড! আপনি ভিতরে প্রবেশ করবে পারবেন");
+ }
+ else {
+  alert(" ভূল পার্সওয়াড! আপনি ভিতরে প্রবেশ করবে পারবেন না ");
+  window.location.href ="about:blank";
+ }
+</script>
 
     </body>
     </html>
